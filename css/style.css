@@ -44,6 +44,23 @@ header h1 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+section {
+  position: relative;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+
+section p {
+  font-size: 18px;
+  font-size: 1.0rem;
+  color: #ffffff;
+  font-weight: 100;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 @media only screen and (min-width: 768px) {
   header {
     height: 240px;
@@ -53,6 +70,17 @@ header h1 {
     font-size: 32px;
     font-size: 2rem;
   }
+  
+   section {
+    height: 75px;
+    line-height: 75px;
+  }
+  section p {
+    font-size: 22px;
+    font-size: 1.375rem;
+  }
+  
+  
 }
 
 .cd-image-container {
