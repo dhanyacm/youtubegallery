@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+	 <link rel="stylesheet" href="/css/yt-gallery.css" />
 
 </head>
 <body>
@@ -12,19 +12,11 @@
 		<h1>Youtube Video Gallery</h1>
 	</header>
 	
-	<div id="gallery-showcase">
-		<div class="container"> 
-			<h3 class="agileits-title">Video Gallery</h3> 			
-						
-			<div class="clearfix"> </div> 						
-			
-     		</div>
-	</div>
-
 
    <input class="api-input" type="text" onchange="createGallery(this.value)" placeholder="AIzaSyBk4W-V9EVzCVjK2GZRfbYwgvwMwYYuIeg"/>
     <div id="gallery-showcase"></div>
-
+	
+    <script src="/js/fslightbox.js"></script>
     <script src="/js/yt-gallery.js"></script>
     <script>
         var createGallery = (key) => {
@@ -34,8 +26,5 @@
         }
     </script>
 
-<script src="js/jquery-2.1.1.js"></script>
-<script src="js/jquery.mobile.custom.min.js"></script> <!-- Resource jQuery -->
-<script src="js/main.js"></script> <!-- Resource jQuery -->
 </body>
 </html>
